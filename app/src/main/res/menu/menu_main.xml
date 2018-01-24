@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/aboutus"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="Aboutus">
+
+    </item>
+    <item
+        android:id="@+id/setting"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="Settings">
+
+    </item>
+    <item
+        android:id="@+id/share"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="Share">
+
+    </item>
+    <item
+        android:id="@+id/email"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="Email">
+
+    </item>
+    <item
+        android:id="@+id/sharesingle"
+        android:title="Share Single"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+
+    </item>
+
+    <item app:showAsAction="never"
+        android:id="@+id/recyclerView"
+        android:title="New Destination"
+        android:orderInCategory="100">
+
+    </item>
+
+</menu>
